@@ -1,5 +1,4 @@
 # Write your code here.
-katz_deli=[]
 
 def line(katz_deli)
   if katz_deli.length == 0
@@ -10,7 +9,10 @@ def line(katz_deli)
   end
 end
 
+katz_deli=[]
+
 def take_a_number(katz_deli, name)
-  return katz_deli << name
+  katz_deli << name
   puts "Welcome, #{name}. You are number #{katz_deli.length} in line."
+  return katz_deli
 end
