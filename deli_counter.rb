@@ -5,7 +5,7 @@ def line(katz_deli=[])
     puts "The line is currently empty."
   else
     katz_deli.map!.with_index { |e, index| " #{index}. #{e}"}
-    puts "The line is currently:#{}"
+    puts "The line is currently:#{katz_deli.join}"
 
   end
 end
