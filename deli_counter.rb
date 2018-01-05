@@ -6,5 +6,4 @@ def line(katz_deli)
   else
     katz_deli.each.with_index {|val, index| return "#{val} is ##{index+1} in line"
   end
-
-  end
+end
